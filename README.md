@@ -43,7 +43,7 @@ eval "$(docker-machine env default)"
 In our case, we are going to use latest version on Ubuntu to create an image of our application. Docker needs a file called Dockerfile to build an image.
 Open the Dockerfile that I have in the project and copy the contents to your Docker file. This file contains instruction to get the latest ubuntu image and install node and npm.
 After this, we have to copy our code to the container and tell Docker to expose the application port. Finally we need to tell Docker the command that it needs to run when we strat this image.
-You can read more about the Dockerfile creation here - http://docs.docker.com/engine/examples/nodejs_web_app/
+You can read more about the Dockerfile creation here - http://docs.docker.com/engine/reference/builder/
 
 Once you have the Docker file ready, we need to build the image. Run below comamnd to build the image.
 ```
@@ -72,3 +72,18 @@ docker-machine ip  <your username>/node-express-docker
 ```
 Now we are all set to run the application. Open your favorite browser and type the url http://<ip-address>:49160
 Ti-ta - Your sample application is now runnnig from Docker container.
+
+If you want to monitor the application you can follow below steps.
+1. Find the conatiner id by running
+```
+docker ps
+```
+2. Get the status by passing container id to below command.
+```
+docker stats <container-id>
+```
+
+To stop the container, you can run below command
+```
+docker stop <container-id>
+```
