@@ -29,7 +29,7 @@ Open your favorite browser and type the url http://<ip-address>:49160
 **Ti-ta** - Your sample application is now runnnig from Docker container.
 
 If you are not seeing the appication running successfully, please read the details below.
-
+***
 ### Steps In buidling the application and Docker Image
 
 * **Create a sample application using express generator**
@@ -92,18 +92,18 @@ Find the ip-address of the Docker container.
 docker-machine ip  <your username>/node-express-docker
 ```
 Now we are all set to run the application. Open your favorite browser and type the url http://<ip-address>:49160
-Ti-ta - Your sample application is now runnnig from Docker container.
 
+***
 If you want to monitor the application you can follow below steps.
-1. Find the conatiner id by running
+* Find the conatiner id by running
 ```
 docker ps
 ```
-2. Get the status by passing container id to below command.
+* Get the status by passing container id to below command.
 ```
 docker stats <container-id>
 ```
-To stop the container, you can run below command
+*To stop the container, you can run below command
 ```
 docker stop <container-id>
 ```
