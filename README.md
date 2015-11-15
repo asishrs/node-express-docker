@@ -50,7 +50,7 @@ npm start
 ```
 Now, open your favorite browser and type the url http://localhost:3000
 
-**Note:** If you are getting an issue, go abck to the console where we started the application and check the logs.
+**Note:** If you are getting an issue, go back to the console where we started the application and check the logs.
 
 * **Create a Docker container based on Ubuntu and install node on that**
 Now that we have the application up and runnig, we can start Docker work. Make sure you have installed docker before stating this. Verify that you have Docker by running below command.
