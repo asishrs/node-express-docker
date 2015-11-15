@@ -25,6 +25,7 @@ docker-machine ip  <your username>/node-express-docker
 ```
 * Test Node web application on Docker Image
 Open your favorite browser and type the url http://<ip-address>:49160
+
 **Ti-ta** - Your sample application is now runnnig from Docker container.
 
 If you are not seeing the appication running successfully, please read the details below.
