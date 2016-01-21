@@ -8,6 +8,7 @@ This is a smaple application to demostarte the ability to Run NodeJs application
 ### How to Run/Test?
 Make sure that, you have installed Docker on your machine before proceeding.
 * Build the Image
+Navigate to the project folder and execute below command
 ```
 docker build -t <your username>/node-express-docker .
 ```
@@ -24,7 +25,8 @@ docker ps
 docker-machine ip  <your username>/node-express-docker
 ```
 * Test Node web application on Docker Image
-Open your favorite browser and type the url http://<ip-address>:49160
+Gran the IP address of your container using above command before proceed.
+Open your favorite browser and type the url http://{ip-address}:49160
 
 **Ti-ta** - Your sample application is now runnnig from Docker container.
 
@@ -33,7 +35,7 @@ If you are not seeing the appication running successfully, please read the detai
 ### Steps In buidling the application and Docker Image
 
 * **Create a sample application using express generator**
-First lets create a sample node web applicationa and test that locally. Run below to install express and expres-generator node packages.
+First lets create a sample node web applicationa and test that locally. Run below to install **express** and **expres-generator** node packages.
 ```
 npm install -g express-generator
 npm install -g express
@@ -43,7 +45,7 @@ Once we have express and express-genarator installed, we can create our sample a
 express <application-name>
 ```
 In my case, I ran **express node-express-docker**
-**Run & test** application - To run the application navigate to the application directory and run below commands.
+* **Run & test** application - To run the application navigate to the application directory and run below commands.
 ```
 npm install
 npm start
