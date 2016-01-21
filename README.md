@@ -105,7 +105,7 @@ docker ps
 ```
 docker stats <container-id>
 ```
-*To stop the container, you can run below command
+* To stop the container, you can run below command
 ```
 docker stop <container-id>
 ```
