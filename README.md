@@ -109,3 +109,15 @@ docker stats <container-id>
 ```
 docker stop <container-id>
 ```
+
+***
+If you want to ssh onto the container please follow beloe steps.
+* Find the conatiner id by running
+```
+docker ps
+```
+* Log into the container via bash (Warning this is for docker v>1.3).
+```
+docker exec -it <container_id> bash
+```
+
