@@ -93,10 +93,10 @@ Find the ip-address of the Docker container.
 ```
 docker-machine ip  <your username>/node-express-docker
 ```
-Now we are all set to run the application. Open your favorite browser and type the url http://<ip-address>:49160
+Now we are all set to run the application. Open your favorite browser and type the url http://host-ip-address:49160
 
 ***
-If you want to monitor the application you can follow below steps.
+#### If you want to monitor the application you can follow below steps.
 * Find the conatiner id by running
 ```
 docker ps
@@ -111,7 +111,7 @@ docker stop <container-id>
 ```
 
 ***
-If you want to ssh onto the container please follow beloe steps.
+#### If you want to ssh onto the container please follow beloe steps.
 * Find the conatiner id by running
 ```
 docker ps
