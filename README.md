@@ -1,5 +1,5 @@
 # node-express-docker
-This is a smaple application to demostarte the ability to Run NodeJs applications on Docker Container.
+This is a smaple application to demonstrate the ability to Run NodeJs applications on Docker Container.
 
 ### Prerequisites
 * **NodeJS** - This applicaion is tested with node v5.0.0 and npm v3.4.0. You can follow instructions https://nodejs.org/en/ to install node and npm on your machine.
