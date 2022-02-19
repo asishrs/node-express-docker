@@ -1,4 +1,4 @@
-FROM 		ubuntu:latest
+FROM 		ubuntu:rolling
 
 # Setting the Node & npm version
 ENV 		NODE_VERSION 5.0.0
